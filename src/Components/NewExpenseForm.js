@@ -14,7 +14,6 @@ const NewExpenseForm = (props) =>{
 
     const [enteredDate,setEnteredDate] = useState('');
     const dateChangeHandler = (event) => {
-        console.log(event.target.value)
         setEnteredDate(event.target.value);
     }
 
